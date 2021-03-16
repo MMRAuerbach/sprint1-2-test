@@ -1,5 +1,5 @@
 /* Main information - resetting some defaults (yes that you can do on elements!)*/
-html, body {
+body {
     padding: 0;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

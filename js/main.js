@@ -1,10 +1,8 @@
 console.log("main.js file loaded");
 
-const switchButton = document.querySelector('.switch_theme');
+const htmlBody = document.body;
 
-if (switchButton) {
-    switchButton.addEventListener('click', function() {
-        const theBody = document.body;
-        theBody.classList.toggle('the_body_dark');
-    })
+const firstButton = document.querySelector('.switch_theme');
+if (firstButton) {
+    console.log('Hallo goedemiddag meneer de Jong en meneer van der Linden');
 }
